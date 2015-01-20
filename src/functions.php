@@ -50,5 +50,5 @@ function convert_to_snake_case($property)
  */
 function bool_to_string($value)
 {
-    return $value ? 'true' : 'false';
+    return $value;// ? 'true' : 'false';
 }
